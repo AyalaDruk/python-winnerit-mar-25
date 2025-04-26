@@ -1,13 +1,15 @@
 import keyword
 
 print(keyword.kwlist)
-print(type(["a","b"])) # <class 'list'>
-print(type(("a","b"))) # <class 'tuple'>
-print(type({"a","b"})) # <class 'set'>
-print(type({"a":1,"b":2})) #dirc
 
-name:str="kkkl"
-print(name)
-del name #delete
+class1 = "Alexander"
+and_45 = 5
+
+name_or_last_name = 6
+
+class MyTestClass:
+    pass
+
+BASE_URL = "example.com"
 
 

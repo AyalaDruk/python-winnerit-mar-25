@@ -1,0 +1,12 @@
+# print(True)
+# print(False)
+# print(bool(1))
+# print(bool(-2))
+# print(bool(0))
+# print(bool(""))
+# print(bool(" "))
+
+# print(bool(True))
+# print(bool(False))
+# print(bool("True"))
+# print(bool("False"))
