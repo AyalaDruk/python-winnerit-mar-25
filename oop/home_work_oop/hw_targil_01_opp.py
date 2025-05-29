@@ -39,7 +39,7 @@ print(employee_1.get_salary())
 print(employee_1.role)
 employee_1.set_salary(20000)
 employee_1.role='daycare'
-print(employee_1.get_salary())
+print(f'new salary {employee_1.get_salary()}')
 print(employee_1.role)
 try:
     employee_1.set_salary(-90)
