@@ -34,13 +34,13 @@ class Employee(Person):
            self.__role= new_role
 
 employee_1=Employee("yossi",30000,"teacher")
-print(employee_1.get_name())
-print(employee_1.get_salary())
-print(employee_1.role)
+print(f'employee name : {employee_1.get_name()}')
+print(f' employee salary: {employee_1.get_salary()}')
+print(f'new role{employee_1.role}')
 employee_1.set_salary(20000)
 employee_1.role='daycare'
 print(f'new salary {employee_1.get_salary()}')
-print(employee_1.role)
+print(f'new role{employee_1.role}')
 try:
     employee_1.set_salary(-90)
 except ValueError as e:
