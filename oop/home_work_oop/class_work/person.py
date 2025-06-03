@@ -7,6 +7,6 @@ class Person:
        self._name=name
 
    def get_name(self):
-       return f"Name from Person class: {self._name}"
+       return f"person class name : {self._name}"
 
 
